@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+
+.nav-bar{
+    background: linear-gradient(90deg,#0E6655, #148F77);
+    height: 60px;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../image/hdImage.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../image/hdImage.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (min-width: 992px) {
+    .masthead {
+      height: 91vh;
+    }
+  }
+
+#principal-text{
+    color: white;
+    font-size: 3rem;
+}
+p a:link,p a:visited,p a:hover,p a:active{
+  color: white;
+  text-decoration: none;
+}
+
+#splash--scroller{
+  font-size: 1.2rem;
+  height: 10vh;
+  width: 10%;
+  -webkit-text-size-adjust: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 45%;
+  /*text-shadow: 0 1px 7px rgba(0,0,0,.4);*/
+}
+
+.news{
+  background-color: #cddad2;
+  height: 50rem;
+}
+
+.news .box{
+  margin-top: 15px;
+  height: 45%;
+  background-color: #2E86C1; 
+}
+
+.image-holder{
+  display: inline-block;
+  width: 15rem;
+  height: 15rem;
+  margin: 10px;
+  background-color: #555;
+}
+
+.image-holder img{
+  height: 100%; 
+  width: 100%; 
+  object-fit: cover;
+}

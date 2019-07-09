@@ -1,0 +1,144 @@
+.bg-darkgreen {
+    background-color: rgb(47, 80, 70);
+  }
+
+#principal-text{
+    color: white;
+    font-size: 6em;
+}
+   .image-holder{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 15em;
+    height: 15em;
+    background-color: #999D74;
+  }
+  
+  .image-holder:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+  }
+  
+  .image-holder img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  img.logo-news{
+      border-radius: 50%;         
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(7px);
+    }
+    60% {
+      transform: translateY(3px);
+    }
+  }
+  
+  .link-attached{
+  line-height: 0;
+  }
+  
+  li > a{
+      text-decoration:none;
+      background-image: linear-gradient(currentColor,currentColor);
+      color: #fff;
+      background-position: 50% 100%;
+      background-repeat:  no-repeat;
+      background-size:  0% 3px;
+      transition: background-size .2s;
+  }
+  
+  li > a:hover,li > a:focus{
+      color: white;
+      background-size: 80% 3px;
+      transition: background-size .4s;
+  }
+  
+  
+  .masthead {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/hdImage.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/hdImage.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .mb-0, .my-0 {
+    margin-bottom: 0!important;
+  }
+  
+  @media (min-width: 992px) {
+      .masthead {
+        height: 90vh;
+      }
+    }
+  
+  .navbar{
+      background: linear-gradient(90deg,#0E6655, rgb(14, 104, 86));
+  }
+  
+  .olympics-background{
+    
+    overflow: hidden;
+  
+    position: relative;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Full height 
+    height: auto; 
+    width: auto;
+  
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+  }
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  .title-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  h4 a:hover, h4 a {
+      color:grey;
+      font-size: 50px;
+}
+
+h2 b {
+
+    color:white;
+    font-size: 50px;
+    text-decoration:underline;
+}

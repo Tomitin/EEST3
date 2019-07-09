@@ -1,0 +1,49 @@
+h1 {
+
+   
+    font-size: 50px;
+    margin-left: 25%;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+}
+
+h2 t{
+        font-size: 30px;
+        margin-left: 25%;
+        color: white;
+        font-style: italic;
+}
+
+
+    picture img {
+        display: block;
+        background-color: #620f0f;
+        background-image: linear-gradient(#771212,#620f0f);
+        
+
+
+}
+
+h1 l {
+
+    font-size: 50px;
+    font-style: italic;
+}
+
+.centrado {
+    width: 1500px;
+    height: 800px;
+    margin: 150px;
+    
+    }
+
+    .t {
+
+        background-color: coral;
+    }
+
+    .sectiona{
+        background-color: #4D1918;
+    }

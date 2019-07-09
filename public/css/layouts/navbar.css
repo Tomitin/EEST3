@@ -1,0 +1,42 @@
+
+.su-brand{
+    margin-left: 10px;
+    margin-right: auto;
+    display: inline-block;
+}
+  
+
+nav.navbar.navbar-expand-lg.navbar-dark{
+    width: 100%;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.69);
+    opacity: 0.93;
+    z-index: 999;
+    background: linear-gradient(90deg,#0E6655, rgb(14, 104, 86));
+}
+
+.bar1, .bar2, .bar3 {
+    width: 40px;
+    height: 6px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.3s all ease-in-out;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow:hidden;
+  }
+  
+.change .bar1 {
+    -webkit-transform: rotate(45deg) translate(-9px, 6px);
+    transform: rotate(45deg) translate(10px, 8px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(-45deg) translate(-8px, -8px);
+    transform: rotate(-45deg) translate(8px, -8px);
+}

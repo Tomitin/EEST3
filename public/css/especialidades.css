@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+/* NAVBAR */
+
+li > a.nav-item.nav-link.active{
+  text-decoration:none;
+  background-image: linear-gradient(currentColor,currentColor);
+  color: #fff;
+  background-position: 50% 100%;
+  background-repeat:  no-repeat;
+  background-size:  0% 3px;
+  transition: background-size .2s;
+  
+}
+
+li > a:hover.nav-item.nav-link.active,li > a:focus.nav-item.nav-link.active{
+  color: white;
+  background-size: 80% 3px;
+  transition: background-size .4s;
+}
+
+.navbar{
+  background: linear-gradient(90deg,#0E6655, rgb(14, 104, 86));
+}
+
+/* END NAVBAR*/
+
+/* Style the tab */
+.tab {
+  float: left;
+  background-color:rgb(128, 125, 125);
+  min-width: 25%;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 650px) {
+  .tab button{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .tab button{
+    
+    font-size: 9px;
+  }
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ccc;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color:#0E6655;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: auto;
+}
+
+#principal-text{
+  color:white;
+  font-size: 42px;
+  
+}
+div#header{
+  width: 100%;
+  height: 70px;
+  background-color:rgb(9, 68, 56);
+  
+}
+
+
+
+
+
+
+

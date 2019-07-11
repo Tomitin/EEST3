@@ -174,14 +174,24 @@ img.logo-news{
 .mb-0, .my-0 {
   margin-bottom: 0!important;
 }
-
+/* 
 .navbar{
   position: fixed !important;
-}
+} */
 
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.fixed-modal{
+  border-top-right-radius: 10px;
+  position: sticky;
+  z-index: 998;
+  top:200px;
+  width: 120px;
+  font-size: 17px;
+  background-color: #fff;
 }
 
 .scroll-to-top {

@@ -22,4 +22,14 @@ $(document).ready(function() {
             }
         });
     })
+
+    $(".page-useful").click(function(){
+        $(".page-useful").addClass("hidden");
+        $('#print-thankyou').append('<div class="loader" style="margin: 0 auto;"></div>');
+
+        setTimeout(function(){
+            $('#print-thankyou').text("Se ha enviado su encuesta.");
+            $('#print-thankyou').append('<i class="fa fa-check-square-o"></i>');
+        }, 1250);
+    })
 });

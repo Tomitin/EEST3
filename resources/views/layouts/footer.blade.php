@@ -27,11 +27,11 @@
               <div class="col-xs-12 col-sm-4 col-md-4">
                 <h5>Nosotros</h5>
                 <ul class="list-unstyled quick-links">
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Contactanos</a></li>
-                  <li><a href="javascript:void();" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Directivos</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Historia</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Imágenes</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Preguntas frecuentes</a></li>
+                  <li><a href="directivos" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Directivos</a></li>
+                  <li><a href="contacto"><i class="fa fa-angle-double-right"></i>Contactanos</a></li>
+                  <li><a href="acercade"><i class="fa fa-angle-double-right"></i>Historia</a></li>
+                  <li><a href="preguntas-frecuentes"><i class="fa fa-angle-double-right"></i>Preguntas frecuentes</a></li>
+                  <li><a href="Creadores<3"><i class="fa fa-angle-double-right"></i>Desarrolladores de la página</a></li>
                 </ul>
               </div>
             </div>

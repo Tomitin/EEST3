@@ -49,11 +49,23 @@
     background-color: #f1f1f1;
   }
   
-  .content{
-      padding: 0 18px;
-      background-color: #f1f1f1;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
+.faq-qa{
+  margin-top: 30px; 
+  margin-bottom: 60px;
+  border-bottom: solid 5px rgb(209, 209, 209);
+
+}
+
+.content{
+  padding: 0 18px;
+  background-color: #f1f1f1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.fa.fa-check-square-o{
+  margin-left: 6px; 
+  color:green
+}
   

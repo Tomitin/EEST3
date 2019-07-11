@@ -37,18 +37,16 @@ Route::get('especialidades', function () {
 Route::get('acercade', function () {
     return view('acercade');
 });
-Route::get('contacto', function () {
-    return view('contacto');
-});
-Route::get('faq', function () {
-    return view('faq');
+Route::get('preguntas-frecuentes', function () {
+    return view('preguntas-frecuentes');
 });
 
 Route::resource('products','ProductController');
 
-
 Auth::routes();
 
+Route::get('contacto', 'ContactFormController@create');
+Route::post('contacto','ContactFormController@store');
 
 Route::get('/admin', function(){
     return 'sos el admin';

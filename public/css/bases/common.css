@@ -1,3 +1,7 @@
+.hidden{
+  display:none;
+}
+
 a:link.plain, a:visited.plain, a:hover.plain, a:active.plain{
   font-size: 1.25em;
   color: white;
@@ -35,6 +39,7 @@ button:hover.btn-outline-light
 }
 
 /* Multiple div slider */
+
 
 /* Next & previous buttons */
 * {
@@ -151,4 +156,26 @@ button:hover.btn-outline-light
   }
 }
 
+/* spinning loader */
+
+.loader {
+  border: 5px solid #c9c9c9;
+  border-radius: 50%;
+  border-top: 5px solid #000000;
+  width: 25px;
+  height: 25px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 

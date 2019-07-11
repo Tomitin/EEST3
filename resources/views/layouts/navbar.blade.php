@@ -13,11 +13,11 @@
           <li><a href="contacto" class="nav-item nav-link active underlined-animation">Contacto</a></li>
           <li><a href="#" class="nav-item nav-link active underlined-animation">Inscripción</a></li>
           <li><a href="acercade" class="nav-item nav-link active underlined-animation">Acerca de</a></li>
-          <li><a href="faq" class="nav-item nav-link active underlined-animation">Preguntas frecuentes</a></li>
+          <li><a href="preguntas-frecuentes" class="nav-item nav-link active underlined-animation">Preguntas frecuentes</a></li>
         </ul>
         <ul class="navbar-nav ml-auto" style="font-size: 17px">
-          <li><a href="#" class="nav-item nav-link active underlined-animation">Iniciar sesión</a></li>
-          <li><a href="#" class="nav-item nav-link active underlined-animation">Registro</a></li>
+          <li><a href="login" class="nav-item nav-link active underlined-animation">Iniciar sesión</a></li>
+          <li><a href="register" class="nav-item nav-link active underlined-animation">Registro</a></li>
         </ul>
     </div>
 </nav>

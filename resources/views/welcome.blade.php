@@ -44,7 +44,7 @@
                 <p class="card-text">{{ $noticia->created_at }}</p>
 
                 <div class="link-attached">
-                  <a id="a" href="#">Ver artículo <i id="b" class="fa fa-angle-right arrow-icon"></i></a>
+                  <a id="a" href="{{ route('products.show',$noticia->id) }}">Ver artículo <i id="b" class="fa fa-angle-right arrow-icon"></i></a>
                 </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
           </div>
       </div>
       <div class="separator">
-          <button class="btn btn-lg btn-outline-dark" type="button" name="button">Más información</button>
+          <a href="especialidades"><button class="btn btn-lg btn-outline-dark" type="button" name="button">Más información</button></a>
       </div>
     </div>
   </section>
@@ -100,6 +100,49 @@
                 <!-- Start of noticias rapidas -->
 
       <section class="bg-darkgreen">
+        <div class="fixed-modal">
+          Mesas de examen
+          <button style="border-radius: 10px;width:100%;" type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+              Ver más
+          </button>
+        </div>
+                <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Mesas de examen</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Las siguientes fechas son válidas solo para este ciclo lectivo: <br>
+                  Historia 2do año: 18/9 <br>
+                  Historia 3er año: 18/9 <br>
+                  Geografía 3er año: 12/9 <br>
+                  Geografía 2do año: 12/9 <br>
+                  Historia 2do año: 18/9 <br>
+                  Historia 3er año: 18/9 <br>
+                  Geografía 3er año: 12/9 <br>
+                  Geografía 2do año: 12/9 <br>
+                  Historia 2do año: 18/9 <br>
+                  Historia 3er año: 18/9 <br>
+                  Geografía 3er año: 12/9 <br>
+                  Geografía 2do año: 12/9 <br>
+
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+                
+              </div>
+            </div>
+        </div>        
         <div class="container text-center">
           <div class="container-fluid">
             <h3 class="text-white">Noticias rápidas</h3><br>
@@ -165,7 +208,7 @@
             </div>
           </div>
           <div class="separator">
-            <button class="btn btn-lg btn-outline-light" type="button" name="button">Más información</button>
+            <a href="acercade"><button class="btn btn-lg btn-outline-light" type="button" name="button">Más información</button></a>
           </div>
         </div>
       </div>

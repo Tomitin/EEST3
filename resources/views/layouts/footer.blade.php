@@ -18,7 +18,7 @@
                 <h5>Links útiles</h5>
                 <ul class="list-unstyled quick-links">
                   <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Consejo escolar</a></li>
-                  <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Mesas de examen</a></li>
+                  <li><a data-toggle="modal" data-target="#mesa-de-examen" href="javascript:void();"><i class="fa fa-angle-double-right"></i>Mesas de examen</a></li>
                   <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Módulo de ingreso</a></li>
                   <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Noticias</a></li>
                   <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Olimpíadas</a></li>

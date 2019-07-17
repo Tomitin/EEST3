@@ -9,10 +9,10 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav ml-auto" style="font-size: 15px">
-          <li><a href="especialidades" class="nav-item nav-link active underlined-animation">Especialidades</a></li>
-          <li><a href="contacto" class="nav-item nav-link active underlined-animation">Contacto</a></li>
           <li><a href="#" class="nav-item nav-link active underlined-animation">Inscripción</a></li>
-          <li><a href="acercade" class="nav-item nav-link active underlined-animation">Acerca de</a></li>
+          <li><a href="acercade" class="nav-item nav-link active underlined-animation">¿Quiénes somos?</a></li>
+          <li><a href="especialidades" class="nav-item nav-link active underlined-animation">Especialidades</a></li>
+          <li><a href="contacto" class="nav-item nav-link active underlined-animation">Contactanos</a></li>
           <li><a href="preguntas-frecuentes" class="nav-item nav-link active underlined-animation">Preguntas frecuentes</a></li>
         </ul>
         <ul class="navbar-nav ml-auto" style="font-size: 17px">

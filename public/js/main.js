@@ -37,6 +37,7 @@ $(document).ready(function(){
     });
 });
 
+/*Start of slider*/
 function ToggleMenu(x) {
   x.classList.toggle("change");
 }
@@ -114,3 +115,7 @@ $(leftPaddle).on('click', function() {
 
     $('.slides').animate( { scrollLeft: '0' }, scrollDuration);
 });
+
+/* ========================================================================
+End of slider*/ 
+

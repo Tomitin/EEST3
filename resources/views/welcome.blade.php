@@ -102,47 +102,11 @@
       <section class="bg-darkgreen">
         <div class="fixed-modal">
           Mesas de examen
-          <button style="border-radius: 10px;width:100%;" type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+          <button style="border-radius: 10px;width:100%;" type="button" class="btn btn-info" data-toggle="modal" data-target="#mesa-de-examen">
               Ver más
           </button>
         </div>
-                <!-- The Modal -->
-        <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-              <div class="modal-content">
-              
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Mesas de examen</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                
-                <!-- Modal body -->
-                <div class="modal-body">
-                  Las siguientes fechas son válidas solo para este ciclo lectivo: <br>
-                  Historia 2do año: 18/9 <br>
-                  Historia 3er año: 18/9 <br>
-                  Geografía 3er año: 12/9 <br>
-                  Geografía 2do año: 12/9 <br>
-                  Historia 2do año: 18/9 <br>
-                  Historia 3er año: 18/9 <br>
-                  Geografía 3er año: 12/9 <br>
-                  Geografía 2do año: 12/9 <br>
-                  Historia 2do año: 18/9 <br>
-                  Historia 3er año: 18/9 <br>
-                  Geografía 3er año: 12/9 <br>
-                  Geografía 2do año: 12/9 <br>
-
-                </div>
-                
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                </div>
-                
-              </div>
-            </div>
-        </div>        
+ 
         <div class="container text-center">
           <div class="container-fluid">
             <h3 class="text-white">Noticias rápidas</h3><br>
@@ -190,7 +154,6 @@
       </section>
                 <!-- End of noticias rapidas -->
 
-
                 <!-- Start of Acerca de section -->
       <div class="container-fluid bg-blue">
         <div class="container text-center text-white">
@@ -232,7 +195,7 @@
               <!-- The slideshow -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="images/hdImage.jpg" alt="Los Angeles">
+                  <img src="images/escuela-carousel.jpg" alt="Los Angeles">
                   <div class="carousel-caption d-none d-md-block">
                     <h4>La escuela más grande de Mar Del Plata</h4>
                     <p>Construyendo futuros técnicos</p>
@@ -245,7 +208,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="images/arroyo.jpeg" alt="New York">
+                  <img src="images/visitanos.png" alt="New York">
                   <div class="carousel-caption d-none d-md-block">
                     <h4>¡Visitanos!</h4>
                   </div>
@@ -253,10 +216,10 @@
               </div>
               
               <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <a class="carousel-control-prev" href="javascript:void();" data-target="#demo" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </a>
-              <a class="carousel-control-next" href="#demo" data-slide="next">
+              <a class="carousel-control-next" href="javascript:void();" data-target="#demo" role="button" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </a>
             </div>

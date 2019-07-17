@@ -27,7 +27,7 @@
 
     <form class="contact100-form validate-form" action="/contacto" method="POST">
       <span class="contact100-form-title">
-        Contactanos
+        Contacto
       </span>
 
       <div class="wrap-input100 validate-input" data-validate="Escriba su nombre">

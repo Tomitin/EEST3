@@ -21,6 +21,7 @@
 
         @yield('content')
 
+        @include('layouts.modals')
         @include('layouts.footer')
 
         <script src="js/jquery.min.js"></script>

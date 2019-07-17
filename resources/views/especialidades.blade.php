@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EEST N°3</title>
-	<link rel="stylesheet" type="text/css" href="css/especialidades.css">
+	<title>EEST N°3</title>
+	<link rel="stylesheet" type="text/css" href="css/layouts/navbar.css">
+	<link rel="stylesheet" type="text/css" href="css/bases/common.css">
+	<link rel="stylesheet" type="text/css" href="css/pages/especialidades.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery.min.js"></script>
@@ -16,31 +18,7 @@
 <!--- Navbar --->
 <body class="bg-darkgreen">
 
-	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-
-		<a href="/" class="navbar-brand">
-			<img src="images/logoesc.png" class="rounded-circle" alt="Circular Image" height="50" alt="Logo">
-		</a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-main" aria-controls="navbar-collapse-main" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-	  <div class="collapse navbar-collapse" id="navbar-collapse-main">
-		  <ul class="nav navbar-nav" style="font-size: 1.3rem">
-			  <li><a href="/" class="nav-item nav-link active">Inicio</a></li>
-			  <li><a href="especialidades" class="nav-item nav-link active">Especialidades </a></li>
-			  <li><a href="#" class="nav-item nav-link active">Olimpiadas </a></li>
-			  <li><a href="contacto" class="nav-item nav-link active">Contacto </a></li>
-			  <li><a href="#" class="nav-item nav-link active">Inscripción </a></li>
-			  <li><a href="acercade" class="nav-item nav-link active">Acerca de</a></li>
-		  </ul>
-		  <ul class="navbar-nav ml-auto" style="font-size: 1.3rem">
-			  <li><a href="login" class="nav-item nav-link active">Login</a></li>
-			  <li><a href="register" class="nav-item nav-link active">Register</a></li>
-		  </ul>
-	  </div>
-  </nav>
+@include('layouts.navbar')
 
 <div class="imagen">  
 	
@@ -160,5 +138,3 @@
 
 </body>
 </html>
-
-
